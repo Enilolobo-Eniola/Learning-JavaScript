@@ -27,6 +27,13 @@
 // }
 //  addBtn.addEventListener("click",addToList)
 
+// var string  = "sdvsd+dvsdvs+sdvsd";
+// var nw = string.split("+");
+// console.log(nw);
+
+
+
+
 var display = document.getElementById("display");
 var buttons = document.getElementsByClassName("buttons");
 var plusButton = document.getElementById("plusbutton");
@@ -97,8 +104,3 @@ cancel.addEventListener("click",function()
 	display.value = "";
 }
 );
-
-
-var string  = "sdvsd+dvsdvs+sdvsd";
-var nw = string.split("+");
-console.log(nw);
