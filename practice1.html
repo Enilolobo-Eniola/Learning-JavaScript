@@ -2,18 +2,43 @@
 <html>
 <head>
 	<title>Javascript Practice one</title>
+	<link rel="stylesheet" type="text/css" href="practice.css">
 </head>
 <body>
-	<h1>Shopping List</h1>
-	<label id="errorMessage"></label><br>
-	<input type="text" name="" placeholder="Type here" id="newItem">
-	<button id="addBtn">Add to List</button>
-	<ul id="list1">
-		<li class="test">Stationaries</li>
-		<li class="test">Stationaries</li>
-		<li>Stationaries</li>
-		<li>Stationaries</li>
-	</ul>
+	<table id="calculatorBody">
+		<tr><td colspan="4" id="calcName">CASIO<hr></td></tr>
+		<!-- display -->
+		<tr>
+			<td colspan="4"><input type="text" name="" placeholder="0" id="display" readonly="true"></button></td>
+		</tr>
+		<!-- buttons -->
+		<tr>
+			<td><button id="cancelBtn">C</button></td>
+			<td><button id="backspaceBtn"><</button></td>
+		</tr>
+		<tr>
+			<td><button class="buttons">7</button></td>
+			<td><button class="buttons">8</button></td>
+			<td><button class="buttons">9</button></td>
+			<td rowspan="3"><button id="plusbutton">+</button></td>
+		</tr>
+		<tr>
+			<td><button class="buttons">4</button></td>
+			<td><button class="buttons">5</button></td>
+			<td><button class="buttons">6</button></td>
+		</tr>
+		<tr>
+			<td><button class="buttons">1</button></td>
+			<td><button class="buttons">2</button></td>
+			<td><button class="buttons">3</button></td>
+		</tr>
+		<tr>
+			<td><button class="buttons">-</button></td>
+			<td><button class="buttons">/</button></td>
+			<td><button class="buttons">*</button></td>
+			<td><button class="buttons">=</button></td>
+		</tr>
+	</table>
 	<script type="text/javascript" src="practice1.js"></script>
 </body>
 </html>
