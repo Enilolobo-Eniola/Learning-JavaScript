@@ -6,7 +6,9 @@
 </head>
 <body>
 	<table id="calculatorBody">
-		<tr><td colspan="4" id="calcName">CASIO<hr></td></tr>
+		<tr>
+			<td colspan="4" id="calcHeader"><bold id="calcName">Calculobz</bold></td>
+		</tr>
 		<!-- display -->
 		<tr>
 			<td colspan="4"><input type="text" name="" placeholder="0" id="display" readonly="true"></button></td>
@@ -14,29 +16,32 @@
 		<!-- buttons -->
 		<tr>
 			<td><button id="cancelBtn">C</button></td>
-			<td><button id="backspaceBtn"><</button></td>
+			<td><button id="backspaceBtn">Del</button></td>
+			<td><button class="buttons">+ / -</button></td>
+			<td><button id="plusbutton">+</button></td>
 		</tr>
 		<tr>
 			<td><button class="buttons">7</button></td>
 			<td><button class="buttons">8</button></td>
 			<td><button class="buttons">9</button></td>
-			<td rowspan="3"><button id="plusbutton">+</button></td>
+			<td><button class="buttons">*</button></td>
 		</tr>
 		<tr>
 			<td><button class="buttons">4</button></td>
 			<td><button class="buttons">5</button></td>
 			<td><button class="buttons">6</button></td>
+			<td><button class="buttons">-</button></td>
 		</tr>
 		<tr>
 			<td><button class="buttons">1</button></td>
 			<td><button class="buttons">2</button></td>
 			<td><button class="buttons">3</button></td>
+			<td><button class="buttons">/</button></td>
 		</tr>
 		<tr>
-			<td><button class="buttons">-</button></td>
-			<td><button class="buttons">/</button></td>
-			<td><button class="buttons">*</button></td>
-			<td><button class="buttons">=</button></td>
+			<td><button class="buttons">0</button></td>
+			<td><button class="buttons">.</button></td>
+			<td colspan="2"><button class="buttons">=</button></td>
 		</tr>
 	</table>
 	<script type="text/javascript" src="practice1.js"></script>
