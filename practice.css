@@ -1,19 +1,33 @@
+body
+{
+	/*background: linear-gradient(to right,lightgrey,lightblue);*/
+	background-size: contain;
+}
+#calcHeader
+{
+	text-align: left;
+}
 #calcName
 {
 	font-family: sans-serif;
 	font-size: 25px;
-	padding-bottom: 10px;
-	color: black;
+	color: white;
+	background-color: darkslategray;
+	width: 30%;
+	padding: 5px 30px;
+	border: 2px solid;
+	border-radius: 5px;
 }
 #calculatorBody
 {
-	border: 1px solid;
-	padding: 20px;
+	border: 10px solid darkslategray;
+	padding: 	30px;
 	border-radius: 20px;
 	text-align: center;
 	width: 30%;
 	margin: auto;
 	margin-top: 100px;
+	/*margin-left: 100px;*/
 	background-color: darkgray;
 }
 
@@ -24,20 +38,24 @@
 	font-family: sans-serif;
 	font-size: 30px;
 	padding-right: 10px;
+	margin-top: 15px;
 	margin-bottom: 10px;
 	text-align: right;
-	border: 1px solid transparent;
+	border: 2px solid darkslategray;
 	border-radius: 5px;
+	outline: none;
 
 }
 #cancelBtn
 {
 	background-color: white;
+	color: red;
 	width: 100%;
 	height: 50px;
 	border: 1px solid transparent;
-	border-radius: 15px;
+	border-radius: 10px;
 	font-size: 20px;
+	outline: none;
 }
 #cancelBtn:hover
 {
@@ -46,11 +64,13 @@
 #backspaceBtn
 {
 	background-color: white;
+	color: red;
 	width: 100%;
 	height: 50px;
 	border: 1px solid transparent;
-	border-radius: 15px;
+	border-radius: 10px;
 	font-size: 20px;
+	outline: none;
 }
 #backspaceBtn:hover
 {
@@ -59,13 +79,43 @@
 #plusbutton
 {
 	background-color: white;
-	width: 90%;
-	height: 160px;
+	width: 100%;
+	height: 50px;
 	border: 1px solid transparent;
-	border-radius: 15px;
-	font-size: 20px;	
+	border-radius: 10px;
+	font-size: 20px;
+	outline: none;	
 }
 #plusbutton:hover
+{
+	background-color: lightgray;
+}
+#dotButton
+{
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	font-size: 40px;
+	outline: none;
+	text-align: center;	
+}
+#dotButton:hover
+{
+	background-color: lightgray;
+}
+#equalToBtn
+{
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	font-size: 20px;
+	outline: none;
+}
+#equalToBtn:hover
 {
 	background-color: lightgray;
 }
@@ -75,8 +125,9 @@
 	width: 100%;
 	height: 50px;
 	border: 1px solid transparent;
-	border-radius: 15px;
+	border-radius: 10px;
 	font-size: 20px;
+	outline: none;
 }
 .buttons:hover
 {
