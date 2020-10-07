@@ -1,2 +1,2 @@
 # Learning-JavaScript
-Just a repository for me to practice JavaScript
+A simple web-based calculator made with Javascript and DOM manipulation
